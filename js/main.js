@@ -66,3 +66,17 @@
         });
 
     };
+
+
+    /* Initialize
+    * ------------------------------------------------------ */
+    (function ssInit() {
+
+        clMenuOnScrolldown();
+        clOffCanvas();
+
+    })();
+
+
+
+})(jQuery);
