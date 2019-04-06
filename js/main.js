@@ -38,7 +38,7 @@
 
         var menuTrigger     = $('.header-menu-toggle'),
             nav             = $('.header-nav'),
-            closeButton     = nav.find('.header-nav__close'),
+            closeButton     = nav.find('.header-nav_close'),
             siteBody        = $('body'),
             mainContents    = $('section, footer');
 
@@ -57,7 +57,7 @@
 
         // close menu clicking outside the menu itself
         siteBody.on('click', function(e){
-            if( !$(e.target).is('.header-nav, .header-nav__content, .header-menu-toggle, .header-menu-toggle span') ) {
+            if( !$(e.target).is('.header-nav, .header-nav_content, .header-menu-toggle, .header-menu-toggle span') ) {
                 // menuTrigger.removeClass('is-clicked');
                 siteBody.removeClass('menu-is-open');
             }
