@@ -2131,3 +2131,131 @@ html.no-csstransitions .home-content__main {
         padding: 0 5px;
     }
 }
+
+
+/*  */
+/* footer */
+/*  */
+
+footer {
+    padding: 1rem 0 1rem;
+    font-family: "montserrat-light", sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+footer h4 {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    line-height: 1.313;
+    margin-top: 0;
+    margin-bottom: 3.6rem;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+    color: #6f39b5;
+}
+
+footer .row {
+    max-width: 980px;
+}
+
+/* footer bottom */
+
+.footer-content {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content .copyright span {
+    display: inline-block;
+}
+
+.footer-content .copyright span::after {
+    content: "|";
+    display: inline-block;
+    padding: 0 1rem 0 1.2rem;
+    color: rgba(255, 255, 255, 0.05);
+}
+
+.footer-content .copyright span:last-child::after {
+    display: none;
+}
+
+/* go to top */
+
+.go-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 600;
+    display: none;
+}
+
+.go-top a, .go-top a:visited {
+    text-decoration: none;
+    border: 0 none;
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: black;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.go-top a i, .go-top a:visited i {
+    font-size: 18px;
+    line-height: inherit;
+}
+
+.go-top a:hover, .go-top a:focus {
+    color: #FFFFFF;
+}
+
+/* responsive: footer */
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+    footer .row {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-content {
+        padding-bottom: .6rem;
+    }
+    .footer-content .copyright span {
+        display: block;
+    }
+    .footer-content .copyright span::after {
+        display: none;
+    }
+    .go-top {
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+}
