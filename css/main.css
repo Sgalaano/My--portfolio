@@ -1492,8 +1492,8 @@ html.no-csstransitions .home-content_main {
 /* about */
 /*  */
 .s-about {
-   padding-top: 16.2rem;
-   padding-bottom: 9rem;
+   padding-top: 5rem;
+   padding-bottom: 5rem;
    background-color: #39164d;
    color: #d5e4ec;
    position: relative;
@@ -1546,7 +1546,7 @@ html.no-csstransitions .home-content_main {
 
 @media only screen and (max-width: 600px) {
    .s-about {
-       padding-top: 12rem;
+       padding-top: 5rem;
    }
    .about-desc {
        font-size: 1.9rem;
@@ -1565,8 +1565,8 @@ html.no-csstransitions .home-content_main {
 /*  */
 
 .s-skills {
-   padding-top: 16.2rem;
-   padding-bottom: 13.2rem;
+   padding-top: 5rem;
+   padding-bottom: 5rem;
    background-color: #FFFFFF;
    color: #757575;
    position: relative;
@@ -1656,7 +1656,7 @@ html.no-csstransitions .home-content_main {
 
 @media only screen and (max-width: 600px) {
    .s-skills {
-       padding-top: 12rem;
+       padding-top: 5rem;
    }
    .skills-list .skill-item:nth-child(n) {
        padding-right: 10px;
@@ -1691,7 +1691,7 @@ html.no-csstransitions .home-content_main {
 }
 
 .s-projects .intro-wrap {
-    padding: 15rem 0 25.2rem;
+    padding: 5rem 0 25.2rem;
     background: #111111;
 }
 
@@ -1704,8 +1704,8 @@ html.no-csstransitions .home-content_main {
 
 /* item folios */
 
-.item-folio {
-  margin-bottom: 2rem;
+.item-folio_thumb {
+  margin-bottom: 1rem;
   padding: 0.5rem;
 }
 
@@ -1723,10 +1723,10 @@ html.no-csstransitions .home-content_main {
 
 @media only screen and (max-width: 600px) {
     .s-projects {
-        padding-bottom: 12rem;
+        padding-bottom: 10rem;
     }
     .s-projects .intro-wrap {
-        padding: 12rem 0 25.2rem;
+        padding: 5rem 0 25.2rem;
     }
     .projects-content {
         margin-top: -25.2rem;
