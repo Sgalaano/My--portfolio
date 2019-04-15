@@ -12,7 +12,6 @@
     <!-- css imports -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
@@ -22,11 +21,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <!-- icon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
 
   <body id="top">
+
+
 
     <!-- header -->
     <header class="s-header">
@@ -79,7 +81,8 @@
     </header> <!-- end s-header -->
 
     <!-- home -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/bricks-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <!-- <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/bricks-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center> -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/purple-python.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -158,7 +161,8 @@
                 I'm a world-class <span style="text-decoration:line-through;">full-snack</span> full-stack web developer with a specialization in Python/Django, with an extreme sense of aestheticism and user experience. <br>
                 Although my professional path has taken many twists and turns — from banking to GIS operator... I love writing clean code, solving problems, challenging myself, creating things that make the difference. <br>
                 <br>
-                Oh, and I love foreign languages. I speak French, English, Chinese and a little bit of Japanese.
+                I love foreign languages. I speak French, English, Chinese and a little bit of Japanese.
+                Oh, and playnig Just Dance Now...
                 </p>
             </div>
         </div> <!-- end about-desc -->
@@ -383,145 +387,243 @@
 
                         <!-- <div class="item-folio"> -->
                             <div class="item-folio_thumb col-md-6">
-                                <a href="#" class="thumb-link" title="Sapologie" data-size="1050x700" target="_blank">
+                                <h1 class="projo-name">Sapologie</h1>
+                                <a href="#" class="thumb-link" title="Sapologie" data-size="1050x700" target="_blank" data-toggle="modal" data-target="#modal-sap">
                                     <img src="images/portfolio/sapologie.PNG" alt="">
                                 </a>
+
+
+                                <!-- The Modal -->
+                                <div class="modal" id="modal-sap">
+                                  <div class="modal-dialog modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                      <!-- Modal Header -->
+                                      <div class="modal-header" style="margin-top:-5rem;">
+                                        <h2 class="modal-title">Sapologie</h2>
+                                        <button type="button" class="close" data-dismiss="modal" style="margin-top:5rem;">&times;</button>
+                                      </div>
+
+                                      <!-- Modal body -->
+                                      <div class="modal-body">
+                                        <div class="row">
+                                          <div class="col-md-6">
+                                            <a href="#" target="_blank">
+                                              <img src="images/portfolio/sapologie.PNG" alt="">
+                                            </a>
+                                          </div>
+
+                                          <div class="col-md-6">
+                                            <div class="item-folio_description">
+                                                <p>Sapologie: A full stack e-commerce website for African Apparel and accessories.</p>
+                                                <p>Technologies: React / Django / Restful API / PayPal Express</p>
+                                            </div>
+
+                                            <div class="item-folio_text">
+                                                <h5 class="item-folio_title">
+                                                    github: <a href="https://github.com/nignanthomas/sapologie">Sapologie</a>
+                                                </h5>
+                                                <p class="item-folio_cat">
+                                                    React/Django_App
+                                                </p>
+                                            </div>
+
+                                            <a href="#" class="item-folio_project-link" title="Live link" target="_blank">
+                                                <i class="icon-link">Live Link</i>
+                                            </a>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn-danger" data-dismiss="modal">Close</button>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
                             </div>
 
-                            <!-- Button to Open the Modal -->
-                            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                              Details
-                            </button> -->
+
+                        <!-- <div class="item-folio"> -->
+                            <div class="item-folio_thumb col-md-6">
+                              <h1 class="projo-name">Instagram</h1>
+                                <a href="https://instaclone-tom.herokuapp.com" class="thumb-link" title="Instagram" data-size="1050x700" target="_blank" data-toggle="modal" data-target="#modal-inst">
+                                    <img src="images/portfolio/instagram.PNG" alt="">
+                                </a>
+
+                                <!-- The Modal -->
+                                <div class="modal" id="modal-inst">
+                                  <div class="modal-dialog modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                      <!-- Modal Header -->
+                                      <div class="modal-header" style="margin-top:-5rem;">
+                                        <h2 class="modal-title">Instagram</h2>
+                                        <button type="button" class="close" data-dismiss="modal" style="margin-top:5rem;">&times;</button>
+                                      </div>
+
+                                      <!-- Modal body -->
+                                      <div class="modal-body">
+                                        <div class="row">
+                                          <div class="col-md-6">
+                                            <a href="#" target="_blank">
+                                              <img src="images/portfolio/instagram.PNG" alt="">
+                                            </a>
+                                          </div>
+
+                                          <div class="col-md-6">
+                                            <div class="item-folio_description">
+                                                <p>Instaclone: A clone of the website for the popular photo app Instagram(desktop version)</p>
+                                                <p>Technologies: Python / Django</p>
+                                            </div>
+
+                                            <div class="item-folio_text">
+                                                <h5 class="item-folio_title">
+                                                    github: <a href="https://github.com/nignanthomas/Instagram">Instagram</a>
+                                                </h5>
+                                                <p class="item-folio_cat">
+                                                    Django_App
+                                                </p>
+                                            </div>
+
+                                            <a href="https://instaclone-tom.herokuapp.com" class="item-folio_project-link" title="Live link" target="_blank">
+                                                <i class="icon-link">Live Link</i>
+                                            </a>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn-danger" data-dismiss="modal">Close</button>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+
+                        <!-- <div class="item-folio"> -->
+                        <div class="item-folio_thumb col-md-6">
+                            <h1 class="projo-name">Pig-Dice</h1>
+                            <a href="https://nignanthomas.github.io/pig-dice/" class="thumb-link" title="Pig_Dice" data-size="1050x700" target="_blank" data-toggle="modal" data-target="#modal-pig">
+                                <img src="images/portfolio/pigdice.PNG" alt="">
+                            </a>
 
                             <!-- The Modal -->
-                            <!-- <div class="modal fade" id="myModal">
-                              <div class="modal-dialog mx-auto mt-5" style="width:900px">
-                                <div class="modal-content"> -->
+                            <div class="modal" id="modal-pig">
+                              <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content">
 
                                   <!-- Modal Header -->
-                                  <!-- <div class="modal-header">
-                                    <h4 class="modal-title">Sapologie</h4> -->
-                                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
-                                  <!-- </div> -->
+                                  <div class="modal-header" style="margin-top:-5rem;">
+                                    <h2 class="modal-title">Pig-Dice</h2>
+                                    <button type="button" class="close" data-dismiss="modal" style="margin-top:5rem;">&times;</button>
+                                  </div>
 
                                   <!-- Modal body -->
-                                  <!-- <div class="modal-body">
-                                    <img src="images/portfolio/sapologie.PNG" alt="">
-                                    <p>A full stack e-commerce website for African Apparel and accessories.</p>
-                                    <p>Technologies: React / Django / Restful API / PayPal Express</p>
-                                    <p>github: <a href="https://github.com/nignanthomas/sapologie">Sapologie</a></p>
-                                  </div> -->
+                                  <div class="modal-body">
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                        <a href="#" target="_blank">
+                                          <img src="images/portfolio/pigdice.PNG" alt="">
+                                        </a>
+                                      </div>
+
+                                      <div class="col-md-6">
+                                        <div class="item-folio_description">
+                                            <p>Pig-Dice: A web game based on the so-called game. Roll the Dice, 1st to reach 100 WINS, Loser is the PIG.</p>
+                                            <p>Technologies: HTML / CSS / JS</p>
+                                        </div>
+
+                                        <div class="item-folio_text">
+                                            <h5 class="item-folio_title">
+                                                github: <a href="https://github.com/nignanthomas/pig-dice">Pig Dice</a>
+                                            </h5>
+                                            <p class="item-folio_cat">
+                                                  Web Based JS Game
+                                            </p>
+                                        </div>
+
+                                        <a href="https://nignanthomas.github.io/pig-dice/" class="item-folio_project-link" title="Live link" target="_blank">
+                                            <i class="icon-link">Live Link</i>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
 
                                   <!-- Modal footer -->
-                                  <!-- <div class="modal-footer">
-                                    <a href="#" class="item-folio_project-link mr-5" title="Live link" target="_blank">
-                                        <i class="icon-link">Live Link</i>
-                                    </a>
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn-danger" data-dismiss="modal">Close</button>
                                   </div>
 
                                 </div>
                               </div>
-                            </div> -->
-
-                            <!-- <div class="item-folio_description">
-                                <p>Sapologie: A full stack e-commerce website for African Apparel and accessories.</p>
-                                <p>Technologies: React / Django / Restful API / PayPal Express</p>
                             </div>
-
-                            <div class="item-folio_text">
-                                <h5 class="item-folio_title">
-                                    github: <a href="https://github.com/nignanthomas/sapologie">Sapologie</a>
-                                </h5>
-                                <p class="item-folio_cat">
-                                    React/Django_App
-                                </p>
-                            </div>
-
-                            <a href="#" class="item-folio_project-link" title="Live link" target="_blank">
-                                <i class="icon-link">Live Link</i>
-                            </a> -->
-                        <!-- </div> -->
+                        </div>
 
 
                         <!-- <div class="item-folio"> -->
-                              <div class="item-folio_thumb col-md-6">
-                                <a href="https://instaclone-tom.herokuapp.com" class="thumb-link" title="Instagram" data-size="1050x700" target="_blank">
-                                    <img src="images/portfolio/instagram.PNG" alt="">
-                                </a>
-                            </div>
-
-                            <!-- <div class="item-folio_description">
-                                <p>Instaclone: A clone of the website for the popular photo app Instagram(desktop version)</p>
-                                <p>Technologies: Python / Django</p>
-                            </div>
-
-                            <div class="item-folio_text">
-                                <h5 class="item-folio_title">
-                                    github: <a href="https://github.com/nignanthomas/Instagram">Instagram</a>
-                                </h5>
-                                <p class="item-folio_cat">
-                                    Django_App
-                                </p>
-                            </div>
-
-                            <a href="https://instaclone-tom.herokuapp.com" class="item-folio_project-link" title="Live link" target="_blank">
-                                <i class="icon-link">Live Link</i>
-                            </a> -->
-                        <!-- </div> -->
-
-                        <!-- <div class="item-folio"> -->
-                            <div class="item-folio_thumb col-md-6">
-                                <a href="https://nignanthomas.github.io/pig-dice/" class="thumb-link" title="Pig_Dice" data-size="1050x700" target="_blank">
-                                    <img src="images/portfolio/pigdice.PNG" alt="">
-                                </a>
-                            </div>
-
-                            <!-- <div class="item-folio_description">
-                                <p>Pig-Dice: A web game based on the so-called game. Roll the Dice, 1st to reach 100 WINS, Loser is the PIG.</p>
-                                <p>Technologies: HTML / CSS / JS</p>
-                            </div>
-
-                            <div class="item-folio_text">
-                                <h5 class="item-folio_title">
-                                    github: <a href="https://github.com/nignanthomas/pig-dice">Pig Dice</a>
-                                </h5>
-                                <p class="item-folio_cat">
-                                      Web Based JS Game
-                                </p>
-                            </div>
-
-                            <a href="https://nignanthomas.github.io/pig-dice/" class="item-folio_project-link" title="Live link" target="_blank">
-                                <i class="icon-link">Live Link</i> -->
+                        <div class="item-folio_thumb col-md-6">
+                            <h1 class="projo-name">Github_Search</h1>
+                            <a href="https://nignanthomas.github.io/Github-Search/" class="thumb-link" title="Github_Search" data-size="1050x700" target="_blank" data-toggle="modal" data-target="#modal-git">
+                                <img src="images/portfolio/gitsearch.PNG" alt="">
                             </a>
-                        <!-- </div> -->
 
+                            <!-- The Modal -->
+                            <div class="modal" id="modal-git">
+                              <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content">
 
-                        <!-- <div class="item-folio"> -->
-                            <div class="item-folio_thumb col-md-6">
-                                <a href="https://nignanthomas.github.io/Github-Search/" class="thumb-link" title="Github_Search" data-size="1050x700" target="_blank">
-                                    <img src="images/portfolio/gitsearch.PNG" alt="">
-                                </a>
+                                  <!-- Modal Header -->
+                                  <div class="modal-header" style="margin-top:-5rem;">
+                                    <h2 class="modal-title">Github_Search</h2>
+                                    <button type="button" class="close" data-dismiss="modal" style="margin-top:5rem;">&times;</button>
+                                  </div>
+
+                                  <!-- Modal body -->
+                                  <div class="modal-body">
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                        <a href="#" target="_blank">
+                                          <img src="images/portfolio/gitsearch.PNG" alt="">
+                                        </a>
+                                      </div>
+
+                                      <div class="col-md-6">
+                                        <div class="item-folio_description">
+                                            <p>Github-Search: A GitHub Profile Search application that allows you to search for github profiles and theirs repos.</p>
+                                            <p>Technologies: Angular / Github API</p>
+                                        </div>
+
+                                        <div class="item-folio_text">
+                                            <h5 class="item-folio_title">
+                                                github: <a href="https://github.com/nignanthomas/Github-Search">Github Search</a>
+                                            </h5>
+                                            <p class="item-folio_cat">
+                                                  Angular_App
+                                            </p>
+                                        </div>
+
+                                        <a href="https://nignanthomas.github.io/Github-Search/" class="item-folio_project-link" title="Live link" target="_blank">
+                                            <i class="icon-link">Live Link</i>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- Modal footer -->
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+
+                                </div>
+                              </div>
                             </div>
-
-                            <!-- <div class="item-folio_description">
-                                <p>Github-Search: A GitHub Profile Search application that allows you to search for github profiles and theirs repos.</p>
-                                <p>Technologies: Angular / Github API</p>
-                            </div>
-
-                            <div class="item-folio_text">
-                                <h5 class="item-folio_title">
-                                    github: <a href="https://github.com/nignanthomas/Github-Search">Github Search</a>
-                                </h5>
-                                <p class="item-folio_cat">
-                                      Angular_App
-                                </p>
-                            </div>
-
-                            <a href="https://nignanthomas.github.io/Github-Search/" class="item-folio_project-link" title="Live link" target="_blank">
-                                <i class="icon-link">Live Link</i>
-                            </a> -->
-                        <!-- </div> -->
+                        </div>
 
         </div> <!-- end projects-content -->
 
@@ -656,6 +758,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
   </body>
 
 </html>

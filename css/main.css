@@ -1705,6 +1705,7 @@ html.no-csstransitions .home-content_main {
 /* item folios */
 
 .item-folio_thumb {
+  position: relative;
   margin-bottom: 1rem;
   padding: 0.5rem;
 }
@@ -1713,6 +1714,30 @@ html.no-csstransitions .home-content_main {
   margin: 0;
   padding: 0;
 }
+
+.projo-name {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: #6f39b5;
+}
+
+.item-folio_thumb:hover .thumb-link{
+  opacity: 0.3;
+  cursor: zoom-in;
+}
+
+
+.item-folio_thumb:hover .projo-name {
+  opacity: 1;
+}
+
+
 
 /* responsive: projects */
 @media only screen and (max-width: 800px) {
