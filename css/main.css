@@ -1521,6 +1521,10 @@ html.no-csstransitions .home-content_main {
    top: 0;
 }
 
+.just-dance {
+  float: right;
+}
+
 
 /* responsive: about */
 
