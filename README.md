@@ -5,14 +5,13 @@
 This website describes who I am, highlights some of my work as a Web Developer, my skills, my background and my contact info if you want to hire me!
 ## Live Demo
 https://nignanthomas.github.io
-https://nthomas.netlify.com/
 ## Technologies Used
-HTML
-CSS
-JS
-Bootstrap
-jQuery
-FormSpree
+- HTML
+- CSS
+- JS
+- Bootstrap
+- jQuery
+- FormSpree
 ## Support and contact details
 Thomas NIGNAN https://github.com/nignanthomas/
 ### License
